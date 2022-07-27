@@ -1,0 +1,174 @@
+body,
+h1,
+h2,
+p {
+  margin: 0;
+}
+body {
+  font-family: "Barlow";
+  color: #2A4A5C;
+}
+.wrapper {
+  background-color: #EFF6FF;
+  padding: 6% 5%;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  max-width: 1440px;
+}
+.image {
+  position: relative;
+  width: 52%;
+}
+.image img {
+  width: 100%;
+}
+.image .logo {
+  position: absolute;
+  top: 50px;
+  left: 60px;
+}
+.image .logo img {
+  width: 90px;
+}
+.form {
+  width: 48%;
+  background-color: #FFFFFF;
+  box-shadow: 10px 6px 56px rgba(0, 0, 65, 0.08);
+}
+.form .form_wrap {
+  padding: 15% 13%;
+  padding-bottom: 62px;
+}
+.form .title {
+  margin-bottom: 50px;
+}
+.form h1 {
+  color: #2A4A5C;
+  margin-bottom: 10px;
+}
+.form .description {
+  color: #7B8A92;
+}
+.form .buttons {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 63px;
+}
+.form .first_row {
+  display: flex;
+  font-size: 13px;
+}
+.form .first_row .but_fb,
+.form .first_row .but_in {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: 36px;
+  margin-right: 30px;
+  background-color: #255A9B;
+  color: #EEEEEE;
+  border-radius: 2px;
+}
+.form .first_row .but_in {
+  background-color: #0076B6;
+  margin-right: auto;
+}
+.form .first_row a {
+  color: #fff;
+  text-decoration: none;
+}
+.form .first_row a:hover {
+  text-decoration: underline;
+}
+.form .first_row img {
+  width: 17px;
+  margin: 13px;
+}
+.form .or {
+  text-align: center;
+  margin: 37px;
+  font-size: 12px;
+}
+.form .inputs {
+  display: flex;
+}
+.form .inputs .email,
+.form .inputs .phone {
+  width: 50%;
+  margin-right: 30px;
+  padding: 19px;
+  font-size: 14px;
+  border: 0.5px solid #EEEEEE;
+  border-radius: 3px;
+}
+.form .inputs .phone {
+  margin-right: auto;
+}
+.form .radioinp_form {
+  margin-bottom: 40px;
+}
+.form h2 {
+  margin-bottom: 9px;
+  font-size: 23px;
+  color: #3F5E70;
+}
+.form .radio_descr {
+  color: #7B8A92;
+  margin: 0;
+  margin-bottom: 45px;
+}
+.form .radiobut {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #2A4A5C;
+}
+.form .help {
+  width: 50%;
+  color: #96A5B1;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 10px 25px rgba(0, 0, 65, 0.08);
+  font-family: "BarlowThin";
+}
+.form .agreement {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 57px;
+  font-family: "BarlowThin";
+}
+.form .agreement p {
+  color: #96A5B1;
+}
+.form .agreement a {
+  color: #3698FB;
+  text-decoration: none;
+}
+.form .agreement a:hover {
+  text-decoration: underline;
+}
+.form button {
+  width: 45%;
+  font-size: 15px;
+  padding: 11px;
+  color: #FFFFFF;
+  background-color: #3698fb;
+  border: none;
+  border-radius: 5px;
+}
+@font-face {
+  font-family: "Barlow";
+  src: url("fonts/BarlowSemiCondensed-Light.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "BarlowThin";
+  src: url("fonts/barlowsemicondensed-thin.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}

@@ -1,0 +1,190 @@
+body,
+h1,
+h2,
+p {
+  margin: 0;
+}
+body{
+    font-family: "Barlow";
+    color: @main_txt;
+}
+
+.wrapper{
+    background-color: @background_main;
+    padding: 6% 5%;;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    max-width: 1440px;
+}
+.image {
+    position: relative;
+    width: 52%;
+    img{
+        width:100%
+    }
+    .logo{
+        position: absolute;
+        top: 50px;
+        left: 60px;
+        img{
+            width: 90px;
+        }
+    }
+}
+
+.form {
+    width: 48%;
+    background-color:@background_form;
+    box-shadow: 10px 6px 56px rgb(0 0 65 / 8%);
+    .form_wrap{
+        padding: 15% 13%;
+        padding-bottom: 62px;
+    }
+    .title{
+        margin-bottom: 50px;
+    }
+    h1{
+        color: @main_txt;
+        margin-bottom: 10px;
+    }
+    .description{
+        color: @small_txt;
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 63px;
+    }
+    .first_row{
+        display: flex;
+        font-size: 13px;
+        .but_fb, .but_in{
+            display: flex;
+            align-items: center;
+            width: 50%;
+            height: 36px;
+            margin-right: 30px;
+            background-color: @fb_button; 
+            color: @button_text;
+            border-radius: 2px;
+        }
+        .but_in{
+            background-color: @in_button;
+            margin-right: auto;
+        } 
+        a{
+            color: #fff;
+            text-decoration: none;
+        }   
+        a:hover{
+            text-decoration: underline;
+        }
+        img{
+            width: 17px;
+            margin: 13px;
+        }
+    }
+
+    .or{
+        text-align: center;
+        margin: 37px;
+        font-size: 12px;
+    }
+
+    .inputs{
+        display: flex;
+        .email, .phone{
+            width: 50%;
+            margin-right: 30px;
+            padding: 19px;
+            font-size: 14px; 
+            border: 0.5px solid @button_text;
+            border-radius: 3px; 
+        }
+        .phone{
+            margin-right: auto;
+        }
+    }
+    .radioinp_form{
+        margin-bottom: 40px;
+    }
+    h2{
+        margin-bottom: 9px;
+        font-size: 23px;
+        color:@h2_grey;
+    }
+    .radio_descr{
+        color: @small_txt;
+        margin: 0;
+        margin-bottom: 45px;
+    }
+    .radiobut{
+        display: flex;
+        justify-content: space-between;
+        font-size: 18px;
+        margin-bottom: 20px;
+        color: @main_txt;
+    }
+    
+    .help{
+        width: 50%;
+        color: @light_grey_txt;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 10px 25px rgb(0 0 65 / 8%);
+        font-family: "BarlowThin";
+    }
+    .agreement{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 57px;
+        font-family: "BarlowThin";
+        p{
+            color: @light_grey_txt;
+        }
+        a{
+            color: #3698FB;
+            text-decoration: none;
+        }   
+        a:hover{
+            text-decoration: underline;
+        }
+    }
+
+    button{
+        width: 45%;
+        font-size: 15px;
+        padding: 11px;
+        color: @background_form;
+        background-color: #3698fb;
+        border: none;
+        border-radius: 5px;
+    }
+
+}
+
+
+
+
+
+@font-face {
+    font-family: "Barlow";  
+    src: url("fonts/BarlowSemiCondensed-Light.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+
+@font-face {
+    font-family: "BarlowThin";  
+    src: url("fonts/barlowsemicondensed-thin.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+@import "colors";
+
+
